@@ -1,0 +1,68 @@
+.IntroPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+* {
+  box-sizing: border-box;
+}
+
+.IntroPage form {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 600px;
+  border: 1px solid grey;
+  background-color: white;
+}
+
+.IntroPage form h1 {
+  text-align: center;
+  color: grey;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.form-group input {
+  border: 1px solid grey;
+  height: 40px;
+  width: 100%;
+  margin: 10px 0;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.short-group {
+  display: flex;
+}
+
+.short-group .form-group:nth-of-type(2) {
+  margin-left: 20px;
+}
+
+.form-group input:focus {
+  outline: none;
+}
+
+.form-group label {
+  font-size: 18px;
+  color: grey;
+  display: block;
+}
+
+form > .form-group {
+  margin: 20px 0;
+}
+
+.next-btn {
+  text-align: center;
+  display: block;
+  padding: 10px 20px;
+  background-color: tomato;
+  color: white;
+}
+p {
+  text-align: center;
+  color: grey;
+}

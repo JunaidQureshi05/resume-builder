@@ -1,0 +1,55 @@
+.WorkExperience {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+* {
+  box-sizing: border-box;
+}
+
+.WorkExperience form {
+  padding: 20px;
+  width: 600px;
+  border: 1px solid grey;
+  background-color: white;
+}
+
+.WorkExperience form h1 {
+  color: grey;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+::-webkit-datetime-edit {
+  padding: 1em;
+}
+
+::-webkit-datetime-edit-text {
+  padding: 0 0.3em;
+}
+::-webkit-datetime-edit-month-field {
+  color: coral;
+}
+::-webkit-datetime-edit-day-field {
+  color: coral;
+}
+::-webkit-datetime-edit-year-field {
+  color: coral;
+}
+/* ::-webkit-inner-spin-button {
+  display: none;
+} */
+::-webkit-calendar-picker-indicator {
+  background: greenyellow;
+}
+
+.working-btn {
+  margin: 10px 0;
+  padding: 5px 10px;
+  background-color: white;
+  color: back;
+  text-transform: uppercase;
+  border: 1px solid grey;
+}

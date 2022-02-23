@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  border-bottom: 1px solid white;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-link-item {
+  margin: 0 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.logo {
+  font-weight: 900;
+  font-size: 26px;
+  letter-spacing: 2px;
+}
+
+span.primary {
+  color: #fff55a;
+}
+
+.s-btn {
+}

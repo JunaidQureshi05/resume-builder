@@ -1,0 +1,49 @@
+.SkillsPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+* {
+  box-sizing: border-box;
+}
+
+.SkillsPage form {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 600px;
+  border: 1px solid grey;
+  background-color: white;
+}
+
+.SkillsPage form h1 {
+  text-align: center;
+  color: grey;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  position: relative;
+}
+
+.form-group i {
+  color: red;
+  font-size: 30px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.form-group i:hover {
+  cursor: pointer;
+}
+
+.add-btn {
+  background-color: lightblue;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+  margin-bottom: 10px;
+}
